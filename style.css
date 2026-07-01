@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    text-decoration: none;
+    font-family: Times New Roman;
+    font-size: 20px;
+    background-color: rgba(78, 78, 180, 0.795);
+    font-family: Times New Roman;
+    font-size: 18px;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+    
+input[type="text"], input[type="password"] {
+    width: 52%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #7c7575bb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+div.login.container{
+    width:90%;
+    max-width:450px;
+    margin:20px auto;
+    background-color: #c8e0d99f;
+    border-radius: 48px;
+    padding: 12px;
+}
+h1{
+    color: #4e4141b6;
+    text-align: center;
+    font-family: Times New Roman;
+    text-decoration: none;
+    font-size: 30px;
+}
+h2{
+    color: #5c2f51fa;
+    text-align: center;
+    font-family: Times New Roman;
+    text-decoration: none;
+    font-size: 35px;
+}
+@media(max-width:768px){
+
+input{
+    width:90% !important;
+}
+
+h2{
+    font-size:28px;
+}
+
+}
+
+footer {
+    background-color: #3c6cc5;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #bb8f8f;
+    width: 100%;
+    font-family: Times New Roman;
+    font-size: 18px;
+    margin-top: 20px;  
+    margin-left: 0px;
+    font-weight: bold;
+}
